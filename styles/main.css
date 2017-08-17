@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "M3TALB0X";
+  src:  url("../fonts/M3TALB0X-alpha/M3TALB0X.ttf")  format("truetype");
+}
+
+@keyframes background-colors {
+  0% {background-color: #eceff1; /* Blue Grey 50 */}
+  10% {background-color: #cfd8dc; /* Blue Grey 100 */}
+  20% {background-color: #b0bec5; /* Blue Grey 200 */}
+  30% {background-color: #90a4ae; /* Blue Grey 300 */}
+  40% {background-color: #78909c; /* Blue Grey 400 */}
+  50% {background-color: #607d8b; /* Blue Grey 500 */}
+  60% {background-color: #78909c; /* Blue Grey 400 */}
+  70% {background-color: #90a4ae; /* Blue Grey 300 */}
+  80% {background-color: #b0bec5; /* Blue Grey 200 */}
+  90% {background-color: #cfd8dc; /* Blue Grey 100 */}
+  100% {background-color: #eceff1; /* Blue Grey 50 */}
+}
+
+body {
+  animation: background-colors 600s linear infinite alternate;
+  background-color: #eceff1; /* Blue Grey 50 */
+  color: #263238; /* Blue Grey 900 */
+  border-top: 5px solid #607d8b /* Blue Grey 500 */;
+  margin: 0;
+  font: 12px monospace, sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #263238; /* Blue Grey 900 */
+}
+
+header, footer, div#font-viewer {
+  margin: 5%;
+  padding: 5px;
+}
+
+header {
+  border-bottom: 1px solid #263238; /* Blue Grey 900 */
+  margin-bottom: 0;
+}
+
+div#font-viewer {
+  background-color: transparent;
+  border: 0;
+  font-family: "M3TALB0X", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  overflow: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  resize: none;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+footer {
+  border-top: 1px solid #263238; /* Blue Grey 900 */
+  margin-top: 5px;
+  text-align: right;
+}
+
+div#font-viewer:focus {
+  outline: 0;
+}
