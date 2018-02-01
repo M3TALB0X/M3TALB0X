@@ -1,2 +1,2 @@
-# sppedlabor.github.io/M3TALB0X
-website for the metalbox font
+# spedlabor.github.io/M3TALB0X
+[website](https://spedlabor.github.io/M3TALB0X) for the metalbox font
